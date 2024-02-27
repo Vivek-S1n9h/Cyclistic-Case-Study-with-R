@@ -20,14 +20,49 @@ A [casetudy](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/blob/mai
 
 ## Cleaning and Merging:
 
+- **Load Data:**
+  - Load "q1_2019.csv" with Rows: 365069 and columns: 12.
+  - Load "q2_2019.csv" with Rows: 1108163 and Columns: 12.
+  - Load "q3_2019.csv" with Rows: 1640718 and Columns: 12.
+  - Load "q4_2019.csv" with Rows: 704054 and Columns: 12.
+
+- **Rename Column names in q2_2019.csv for Merging**
+
+- **Merge Data:**
+  - Merge the loaded data frames (from previous steps) into a single data frame named "all_trip_2019" with Rows: 381 Million(381,800,412) and Columns: 12.
+
 
 ## Summarizing:
+
+- **Female-riders:** 857 Thousand(857,978)
+- **Male-riders:** 2.4 Millions(2,400,820)
+
+- **Casual riders:** 880 Thousand (880,637) 
+- **Member riders:** 2.9 Million(2,937,367) 
+
+- **Avg ride duration:**
+  - Casual riders: 57.01802
+  - Member riders: 14.32780
+  - All riders: 24.17
+
+- **Min ride duration:**
+  - Casual riders: 1.016667
+  - Member riders: 1.016667
+  - All riders: 1.02
+
+- **Max ride duration:**
+  - Casual riders: 177200.4
+  - Member riders: 150943.9
+  - All riders: 177200.37
+
+- **Median ride duration:**
+  - Casual riders: 25.83333
+  - Member riders: 9.80000
+  - All riders: 11.82
 
 ## Analysis or User Trends:
 
 ### Key Insights:
-
-
 
 1. **No of Rides by Weekdays:**
 ![number_of_rides_by_weekday](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/assets/121023465/8cb8f93c-1393-4ca8-aecd-f0ea7c030403)
@@ -39,12 +74,14 @@ A [casetudy](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/blob/mai
 ![rides_avg_duration_by_weekday](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/assets/121023465/4b192c9c-32ec-4b53-8fb7-865bf1ae71eb)
 
 4. **Avg duration by Months:**
-![avg_duration_by_month](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/assets/121023465/a95c6e5d-d300-4cea-ac60-a7f2852ca9b9)
+![avg_duration_by_month](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/assets/121023465/8db45e40-e289-41db-a2ac-5714f71cd19e)
+
 
 ## Conclusions and Insights:
 1. **Casual vs. Member Usage:**
    - Casual users exhibit significantly longer average ride durations compared to members.
-   - Casual riders contribute substantially to weekend rides, particularly on Saturdays and Sundays, while member rides are evenly spread throughout the week.
+   - Casual riders contribute substantially to weekend rides, particularly on Saturdays and Sundays
+   - Member rides are evenly spread throughout the week.
 2. **Weekday Analysis:**
    - Both casual and member riders experience an increase in rides from Monday to Friday, with Friday being the peak day for casual users.
    - Member riders show a distinctive peak on Mondays and a gradual decline through the week.
