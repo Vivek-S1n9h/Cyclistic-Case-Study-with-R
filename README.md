@@ -1,4 +1,9 @@
 # How-Cyclistic-customers-use-bikes-differently
+
+Cyclistic, a fictional company, has launched a successful bike-sharing program. The program has now expanded into a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. Cyclists can unlock a bike from one station and return it to any other station in the system anytime.
+
+The director of marketing thinks that the company's future success hinges on maximizing the number of annual memberships. To achieve this, they want to understand the differences between how casual riders and annual members use Cyclistic bikes. They plan to design a new marketing strategy that will convert casual riders into annual members based on these insights. However, Cyclistic executives must approve the recommendations, so they must be supported by compelling data insights and professional data visualizations.
+
 A [casetudy](https://github.com/Vivek-S1n9h/Cyclistic-Case-Study-with-R/blob/main/bike-share-trip-casestudy.ipynb) that analyzes the Cyclistic customer shared bike usage trends and then recommends the future marketing strategy.
 
 ## Dataset Source
